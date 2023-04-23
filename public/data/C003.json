@@ -1,0 +1,23 @@
+[
+    {
+        "id":"CV01",
+        "name":"Tomate chonto",
+        "description":"Tomate chonto x 500gr",
+        "image":"/frutasVerdura/tomate.png",
+        "value":2500
+    },
+    {
+        "id":"CV02",
+        "name":"Banano Uraba",
+        "description":"Banano Uraba x500gr",
+        "image":"/frutasVerdura/banano.png",
+        "value":3200
+    },
+    {
+        "id":"CV03",
+        "name":"Aguacate Hass",
+        "description":"Aguacate Hass x500gr",
+        "image":"/frutasVerdura/aguacate.png",
+        "value":3200
+    }
+]

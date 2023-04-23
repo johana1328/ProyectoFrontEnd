@@ -1,12 +1,12 @@
 [
     {
         "id":"C001",
-        "name":"Desapensa",
+        "name":"Despensa",
         "image":"/categorias/despensa.png"
     },
     {
         "id":"C002",
-        "name":"Aseo",
+        "name":"Aseo del hogar",
         "image":"/categorias/aseo.png"
     },
     {
@@ -15,7 +15,7 @@
         "image":"/categorias/frutasVerduras.jpg"
     },{
         "id":"C004",
-        "name":"Lacteos y Carnes",
+        "name":"Lacteos,huevos y refigerador",
         "image":"/categorias/lateaosycarnes.jpg"
     }
 ]

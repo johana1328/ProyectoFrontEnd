@@ -1,0 +1,23 @@
+[
+    {
+        "id":"CL01",
+        "name":"Huevos AA rojos",
+        "description":"Huevos AA rojos Nápoles x30und",
+        "image":"/lacteosHuevos/huevos.png",
+        "value":23590
+    },
+    {
+        "id":"CL02",
+        "name":"Salchicha Ranchera",
+        "description":" Salchicha Ranchera x14und x480g",
+        "image":"/lacteosHuevos/salchicha.png",
+        "value":3200
+    },
+    {
+        "id":"CL03",
+        "name":"Leche entera Parmalat",
+        "description":"Leche entera Parmalat larga vida x6und x1100ml c-u",
+        "image":"/lacteosHuevos/leche.png",
+        "value":3200
+    }
+]

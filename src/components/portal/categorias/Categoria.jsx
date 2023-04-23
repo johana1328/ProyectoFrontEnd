@@ -35,8 +35,8 @@ componentDidMount() {
       <section class="item-details section">
         <div class="single-block">
           <div class="col-lg-12 col-12">
-            <div class="info-body custom-responsive-margin">
-                <h2 class="section-title">Productos</h2> 
+          <div class="info-body custom-responsive-margin">
+               <h2 class="section-title">Categorias</h2> 
                 <div class="container">
                   <div class="row">
                   {

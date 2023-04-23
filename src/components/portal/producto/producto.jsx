@@ -29,9 +29,14 @@ return(
                             <div class="card">
                               <img class="card-img-top" src={producto.image} alt="Card image cap"/>
                               <div class="card-body">
-                                <div class="button cart-button">
-                                    <Link class="btn" to="/login">{producto.name}</Link>
-                                </div>
+                              <div class="card-body">
+                                          <h5 class="card-title">{producto.name}</h5>
+                                          <p>{producto.description}</p>
+                                          <h6>Precio: <span>$ {producto.value}</span></h6>
+                                          <div class="button cart-button">
+                                            <button class="btn">Detalle </button>
+                                        </div>
+                                        </div>
                               </div>
                            </div>
                           </div>

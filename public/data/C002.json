@@ -1,23 +1,30 @@
 [
     {
-        "id":"CD01",
-        "name":"Lejtejas Diana",
-        "description":"Lentejas diana x500gr",
-        "image":"/despensa/lentejas.png",
+        "id":"CA01",
+        "name":"Limpiador Dersa",
+        "description":"Limpiador Dersa en polvo 1A x 750 g",
+        "image":"/aseo/limpiadorPolvo.png",
         "value":3200
     },
     {
-        "id":"CD02",
-        "name":"Lejtejas Diana",
-        "description":"Lentejas diana x500gr",
-        "image":"/despensa/lentejas.png",
-        "value":3200
+        "id":"CA02",
+        "name":"Limpiador Máxima ",
+        "description":"Limpiador desinfectante lavanda x5000ml",
+        "image":"/aseo/limpiador.jpg",
+        "value":10990
     },
     {
-        "id":"CD03",
-        "name":"Lejtejas Diana",
-        "description":"Lentejas diana x500gr",
-        "image":"/despensa/lentejas.png",
-        "value":3200
+        "id":"CA03",
+        "name":" Blanqueador blancox",
+        "description":"Blanqueador blancox desinfectantex3800ml",
+        "image":"/aseo/blanqueador.png",
+        "value":10000
+    },
+    {
+        "id":"CA04",
+        "name":" Blanqueador blancox",
+        "description":"Blanqueador blancox desinfectantex3800ml",
+        "image":"/aseo/blanqueador.png",
+        "value":10000
     }
 ]

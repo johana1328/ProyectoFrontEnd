@@ -1,3 +1,27 @@
-.card{
-    width: 18rem;
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0px 300px;
+    position: relative;
+    z-index: 5;
+    position: relative;
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+  
+
+  
+  .section-title::before {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    content: "";
+    background-color: #4cb75f;
+    height: 2px;
+    width: 60px;
+    margin-left: -25px;
+    border-radius: 2px;
+  }
+.card-img-top{
+    height: 260px;
 }

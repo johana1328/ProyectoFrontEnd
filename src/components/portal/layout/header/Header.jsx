@@ -35,7 +35,7 @@ const Header = () => {
                                 </li>
                                 <li>
                                     <div class="button">
-                                        <Link class="btn" to="/login">Productos</Link>
+                                        <Link class="btn" to="/login">Inicio sesión</Link>
                                     </div>
                                 </li>
                             </ul>

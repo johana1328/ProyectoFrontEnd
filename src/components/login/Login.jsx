@@ -3,14 +3,14 @@ import "./login.css";
 
 const Login = () => {
   return (
-    <>
+   
       <div class="contenedor-formulario contenedor">
         <div class="imagen-formulario">
             
         </div>
-
+        <div class="card">
         <form class="formulario">
-            <div class="texto-formulario">
+        <div class="texto-formulario">
                 <h2>Bienvenido</h2>
                 <p>Inicia sesión con tu cuenta</p>
             </div>
@@ -22,15 +22,13 @@ const Login = () => {
                 <label for="contraseña">Contraseña</label>
                 <input placeholder="Contraseña" type="password" id="contraseña" />
             </div>
-            <div class="password-olvidada">
-                <a href="#">¿Olvidaste tu contraseña?</a>
-            </div>
             <div class="input">
                 <input type="submit" value="Ingresar" />
             </div>
         </form>
+        </div>
     </div>
-    </>
+   
   )
 }
 

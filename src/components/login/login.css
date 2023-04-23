@@ -10,7 +10,7 @@
     background-image: url('./ima.jpeg');
     background-position: center center;
     background-size: cover;
-    height: 150px;
+    height: 130px;
     flex: 0 0 calc(60%);
     position: relative;
     
@@ -55,7 +55,7 @@
 .texto-formulario h2{
     font-size: 40px;
     text-align: center;
-    font-weight: bold !important;
+    font-weight: 300 !important;
 }
 .texto-formulario p{
     font-size: 22px;
@@ -70,11 +70,7 @@
     
     
 }
-.password-olvidada a{
-    display: inline-block;
-    margin-top: 20px;
-    font-size: 22px;
-}
+
 .input input{
     width: 100%;
     padding: 10px 16px;
@@ -83,7 +79,7 @@
     color: var(--blanco);
 }
 .input input[type="submit"]{
-    background-color: #10a257;
+    background-color: #4cb75f;
     color: #fff;
     font-size: 22px;
     font-weight: bold;
@@ -94,8 +90,10 @@
 .input input[type="submit"]:hover{
   
     cursor: pointer;
-    background-color: #10a2577d;
-    color: #060606;
+    color: #4cb75f;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 4px 4px #0000000f;
+  box-shadow: 0px 4px 4px #0000000f;
 }
 
 .input input[type="password"]{
@@ -106,4 +104,7 @@
 .input input[type="text"]{
     background-color: #ede8e8;
     border: none;
+}
+.card{
+    margin-top: 50px;
 }
