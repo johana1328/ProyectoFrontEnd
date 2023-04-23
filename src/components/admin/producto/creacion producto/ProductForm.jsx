@@ -5,7 +5,6 @@ function ProductForm() {
   return (
     
     <section>
-      <div class="container"></div>
       <form>
       <div>
         <label htmlFor="name">Nombre:</label>

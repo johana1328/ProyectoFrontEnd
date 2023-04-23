@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 
 import './App.css'
 
@@ -12,7 +13,8 @@ import E404 from './components/errorPages/e404'
 import Layout from './components/portal/layout/layaut';
 import Producto from './components/portal/producto/producto';
 
-
+import LayoutAdmin from './components/admin/layout/layautAdmin';
+import ProductForm from './components/admin/producto/creacion producto/ProductForm';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -24,6 +26,10 @@ function App() {
             <Route path="products" element={<Categoria />} />
             <Route path="products/:id" element={<Producto />} />
             <Route path="*" element={<E404 />} />
+          </Route> 
+          <Route path="/admin" element={<LayoutAdmin />}>
+            <Route index element={<CarrucelInicio />} />
+            <Route path="products/create" element={<ProductForm />} />
           </Route> 
           <Route path="/login">
              <Route index element={<Login />} />

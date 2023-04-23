@@ -1,0 +1,62 @@
+#menuOpcion{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper .sidebar{
+    background: #4cb75f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.siderLogo{
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+.siderLogo > img{
+    width: 84px;
+    margin-left: 58px;
+}
+
+#menuOpcion{
+    margin-top: 60px;
+}
+
+#menuOpcion ul {
+    padding-left: 0.5rem;
+}
+
+a {
+    text-decoration: none !important;
+    color: #FFFFFF !important;
+    font-weight: 700;
+}
+
+li{
+    margin-top: 5px;
+}
+
+li:hover {
+    border-right: 5px solid #046415;
+}
+
+.item{
+    margin-left: 10px;
+}
+
+
+
+

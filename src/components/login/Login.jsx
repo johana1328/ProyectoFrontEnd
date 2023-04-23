@@ -1,4 +1,5 @@
 import React from 'react';
+import { Routes, Route, Outlet, Link } from "react-router-dom";
 import "./login.css";
 
 const Login = () => {
@@ -22,8 +23,11 @@ const Login = () => {
                 <label for="contraseña">Contraseña</label>
                 <input placeholder="Contraseña" type="password" id="contraseña" />
             </div>
-            <div class="input">
-                <input type="submit" value="Ingresar" />
+            <div class="password-olvidada">
+                <a href="#">¿Olvidaste tu contraseña?</a>
+            </div>
+            <div class="button">
+                <Link class="btn" to="/admin/products/create">Ingresar</Link>
             </div>
         </form>
         </div>
