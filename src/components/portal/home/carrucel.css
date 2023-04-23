@@ -1,0 +1,25 @@
+h1.carrucelTitle{
+    color: #10a257;
+    font-size: 81px;
+    margin-left: 23%;
+}
+
+div.carrucelTitle{
+    margin-top: 114px;
+}
+
+.text-slider {
+    color: #000;
+    font-size: 32px;
+    margin-left: 23%;
+    line-height: 34px;
+    font-weight: 300;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #10A257;
+}
+
+#carouselIndicators{
+    height: 504px;
+}

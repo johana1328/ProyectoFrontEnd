@@ -1,0 +1,95 @@
+.footer {
+   background-color: #10A257;
+    position: relative;
+    margin-top: 10px;
+    /* Single Footer */
+    /* End Single Footer */
+}
+
+.footer .footer-top .footer-newsletter .newsletter-form .button .btn:hover {
+    color: #4cb75f;
+    background-color: #fff;
+}
+
+.footer .single-footer {
+    margin-top: 40px;
+}
+.footer .single-footer h3 {
+    position: relative;
+    margin-bottom: 32px;
+    padding-bottom: 15px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer .single-footer h3::before {
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background-color: #0c8723;
+    content: '';
+}
+
+.footer .single-footer.f-link ul li {
+    display: block;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.footer .single-footer.f-link ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer .single-footer.f-link ul li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    text-decoration-line: none;
+}
+
+.footer .single-footer.f-contact .phone {
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer .single-footer.f-contact ul {
+    margin: 10px 0;
+}
+
+.footer .footer-bottom .inner-content {
+    border-top: 1px solid #ffffff26;
+    padding: 25px 0;
+}
+
+
+.footer .footer-bottom .payment-gateway span {
+    display: inline-block;
+    margin-right: 12px;
+    color: #fff;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
+    .footer .footer-bottom .copyright {
+        margin-bottom: 12px;
+    }
+}
+
+.footer .footer-bottom .socila {
+    display: block;
+    float: right;
+}
+.footer .footer-bottom .socila li {
+    margin: 0;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+

@@ -1,0 +1,62 @@
+/* Estilos del formulario */
+form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto 50px;
+    grid-template-areas:
+      "nombre valor cantidad"
+      "valor cantidad tipo"
+      "promocion imagen descripcion"
+      ". . botones";
+    max-width: 800px;
+    margin:  auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilos de los campos de texto */
+  input[type="text"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  /* Estilos de los botones */
+  button {
+    padding: 12px 20px;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+  }
+  
+  /* Alineación del botón cancelar */
+  .cancelar {
+    justify-self: start;
+  }
+  
+  /* Alineación del botón guardar */
+  .guardar {
+    justify-self: end;
+  }
+  form > *:not(.botones) {
+    padding: 5px;
+  }

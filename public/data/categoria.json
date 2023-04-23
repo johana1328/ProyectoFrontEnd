@@ -1,0 +1,21 @@
+[
+    {
+        "id":"C001",
+        "name":"Desapensa",
+        "image":"/categorias/despensa.png"
+    },
+    {
+        "id":"C002",
+        "name":"Aseo",
+        "image":"/categorias/aseo.png"
+    },
+    {
+        "id":"C003",
+        "name":"Frutas y verduras",
+        "image":"/categorias/frutasVerduras.jpg"
+    },{
+        "id":"C004",
+        "name":"Lacteos y Carnes",
+        "image":"/categorias/lateaosycarnes.jpg"
+    }
+]
