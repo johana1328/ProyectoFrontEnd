@@ -33,9 +33,9 @@ return(
                                           <h5 class="card-title">{producto.name}</h5>
                                           <p>{producto.description}</p>
                                           <h6>Precio: <span>$ {producto.value}</span></h6>
-                                          <div class="button cart-button">
-                                            <button class="btn">Detalle </button>
-                                        </div>
+                                          <div class="button">
+                                            <Link class="btn" to={`/products/${producto.id}/detail`} >Detalle</Link>
+                                          </div>
                                         </div>
                               </div>
                            </div>

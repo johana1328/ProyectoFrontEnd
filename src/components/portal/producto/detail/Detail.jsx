@@ -11,7 +11,7 @@ const Detail = () => {
                     <div class="product-images">
                         <main id="gallery">
                             <div class="main-img">
-                                <img src="arroz.png" id="current" alt="#"/>
+                                <img src="/arroz.png" id="current" alt="#"/>
                             </div>
                         </main>
                     </div>
@@ -54,7 +54,7 @@ const Detail = () => {
                                     <div class="row">
                                         <div class="col">
                                             <div class="card">
-                                                <img class="card-img-top" src="lentejas.png" alt="Card image cap"/>
+                                                <img class="card-img-top" src="/lentejas.png" alt="Card image cap"/>
                                                 <div class="card-body">
                                                   <h5 class="card-title">Lentejas Diana</h5>
                                                   <p class="info_detail">Lentejas diana x500gr</p>
@@ -68,7 +68,7 @@ const Detail = () => {
                                         </div>
                                         <div class="col">
                                             <div class="card">
-                                                <img class="card-img-top" src="frijol.png" alt="Card image cap"/>
+                                                <img class="card-img-top" src="/frijol.png" alt="Card image cap"/>
                                                 <div class="card-body">
                                                   <h5 class="card-title">Frijol Diana</h5>
                                                   <p class="info_detail">Frijol diana x500gr</p>
@@ -82,7 +82,7 @@ const Detail = () => {
                                         </div>
                                         <div class="col">
                                             <div class="card">
-                                                <img class="card-img-top" src="arveja.png" alt="Card image cap"/>
+                                                <img class="card-img-top" src="/arveja.png" alt="Card image cap"/>
                                                 <div class="card-body">
                                                   <h5 class="card-title">Arveja Diana </h5>
                                                   <p class="info_detail">Arveja diana x500gr</p>

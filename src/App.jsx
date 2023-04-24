@@ -15,6 +15,7 @@ import Producto from './components/portal/producto/producto';
 
 import LayoutAdmin from './components/admin/layout/layautAdmin';
 import ProductForm from './components/admin/producto/creacion producto/ProductForm';
+import Detail from './components/portal/producto/detail/Detail';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -25,6 +26,7 @@ function App() {
             <Route index element={<CarrucelInicio />} />
             <Route path="products" element={<Categoria />} />
             <Route path="products/:id" element={<Producto />} />
+            <Route path="products/:id/detail" element={<Detail />} />
             <Route path="*" element={<E404 />} />
           </Route> 
           <Route path="/admin" element={<LayoutAdmin />}>
