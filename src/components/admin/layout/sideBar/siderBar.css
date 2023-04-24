@@ -39,17 +39,17 @@
     padding-left: 0.5rem;
 }
 
-a {
+#menuOpcion  a {
     text-decoration: none !important;
     color: #FFFFFF !important;
     font-weight: 700;
 }
 
-li{
+#menuOpcion  li{
     margin-top: 5px;
 }
 
-li:hover {
+#menuOpcion li:hover {
     border-right: 5px solid #046415;
 }
 
