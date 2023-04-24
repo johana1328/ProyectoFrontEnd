@@ -1,110 +1,93 @@
+.w-100 {
+    width: 100% !important; }
+.ftco-section {
+    padding: 7em 0; }
 
+.container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto; }
+        @media (min-width: 576px) {
+          .container {
+            max-width: 540px; } }
+        @media (min-width: 768px) {
+          .container {
+            max-width: 720px; } }
+        @media (min-width: 992px) {
+          .container {
+            max-width: 960px; } }
+        @media (min-width: 1200px) {
+          .container {
+            max-width: 1140px; } }
 
-.contenedor{
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 95%;
+.justify-content-center {
+      -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+      justify-content: center !important; 
 }
-
-.imagen-formulario{
-    background-image: url('./ima.jpeg');
-    background-position: center center;
-    background-size: cover;
-    height: 130px;
-    flex: 0 0 calc(60%);
-    position: relative;
-    
-}
-.imagen-formulario::before{
-   content: '';
-   position: absolute;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-  
-   
-}
-
-@media(min-width:768px){
-    .imagen-formulario{
-        height: auto;
-        background-position: right;
-    }
-
-}
-@media(min-width:1200px){
-    .imagen-formulario{
-        background-position: center;
-    }
-}
-
-@media(min-width:768px){
-    .contenedor-formulario{
-        display: flex;
-    }
-}
-
-.formulario{
-    padding: 50px;
-    background-color: var(--azul);
-}
-.texto-formulario h2, .input label, .password-olvidada a, .texto-formulario p{
-    color: var(--blanco);
-}
-.texto-formulario h2{
-    font-size: 40px;
-    text-align: center;
-    font-weight: 300 !important;
-}
-.texto-formulario p{
-    font-size: 22px;
-    text-align: center;
-    
-}
-.input label{
-    display: block;
-    font-size: 22px;
-    font-weight: bold;
-    margin: 20px 0;
-    
-    
-}
-
-.input input{
+.text-center {
+    text-align: center !important; }
+    .text-wrap {
+        white-space: normal !important; }
+    .text-wrap {
+        background: #ffff;
+        background: -moz-linear-gradient(-45deg, #4cb75f 0%, #59d092 100%);
+        background: -webkit-gradient(left top, right bottom, color-stop(0%, #ffff), color-stop(100%, #59d092));
+        background: -webkit-linear-gradient(-45deg, #4cb75f 0%, #59d092 100%);
+        background: -o-linear-gradient(-45deg, #4cb75f 0%, #59d092 100%);
+        background: -ms-linear-gradient(-45deg, #4cb75f 0%, #59d092 100%);
+        background: -webkit-linear-gradient(315deg, #4cb75f 0%, #59d092 100%);
+        background: -o-linear-gradient(315deg, #4cb75f 0%, #59d092 100%);
+        background: linear-gradient(135deg, #4cb75f 0%, #59d092 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff', endColorstr='#59d092', GradientType=1 );
+        color: #fff; }
+ .text-wrap .text h2 {
+     font-weight: 900;
+     color: #fff;
+     }
+.order-md-last {
+      -webkit-box-ordinal-group: 14;
+        -ms-flex-order: 13;
+         order: 13;
+ }
+ .wrap {
     width: 100%;
-    padding: 10px 16px;
     border-radius: 5px;
-    outline: none;
-    color: var(--blanco);
-}
-.input input[type="submit"]{
-    background-color: #4cb75f;
-    color: #fff;
-    font-size: 22px;
-    font-weight: bold;
-    border: none;
-    margin-top: 20px;
-    transition: background-color .3s ease-in-out;
-}
-.input input[type="submit"]:hover{
+    -webkit-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24); }
   
-    cursor: pointer;
-    color: #4cb75f;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0px 4px 4px #0000000f;
-  box-shadow: 0px 4px 4px #0000000f;
+  .text-wrap, .login-wrap {
+    width: 50%; }
+    @media (max-width: 991.98px) {
+ .text-wrap, .login-wrap {
+    width: 100%; } }
+.d-flex {
+     display: -webkit-box !important;
+     display: -ms-flexbox !important;
+     display: flex !important; }
+.login-wrap h3 {
+      font-weight: 300; }
+.align-items-center {
+     -webkit-box-align: center !important;
+     -ms-flex-align: center !important;
+     align-items: center !important; }
+.img-login{
+    margin: 0 auto;
+    width: 120px;
 }
 
-.input input[type="password"]{
-    background-color: #ede8e8; 
-    border: none; 
+input[type="text"],
+input[type="number"]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 2px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  color: #333;
+  font-size: 16px;
 }
-
-.input input[type="text"]{
-    background-color: #ede8e8;
-    border: none;
-}
-.card{
-    margin-top: 50px;
-}
+    

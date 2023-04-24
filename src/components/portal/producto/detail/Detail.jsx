@@ -44,62 +44,6 @@ const Detail = () => {
          
             </div>
         </div>
-        <div class="product-details-info">
-            <div class="single-block">
-                    <div class="col-lg-12 col-12">
-                        <div class="info-body custom-responsive-margin">
-                            <h3>Productos Similares</h3> 
-                            <br/>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="card">
-                                                <img class="card-img-top" src="/lentejas.png" alt="Card image cap"/>
-                                                <div class="card-body">
-                                                  <h5 class="card-title">Lentejas Diana</h5>
-                                                  <p class="info_detail">Lentejas diana x500gr</p>
-                                                  <h6>Precio: <span>$ 3.200</span></h6>
-                                                  <br/>
-                                                  <div class="button cart-button">
-                                                    <button class="btn">Detalle </button>
-                                                </div>
-                                                </div>
-                                              </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="card">
-                                                <img class="card-img-top" src="/frijol.png" alt="Card image cap"/>
-                                                <div class="card-body">
-                                                  <h5 class="card-title">Frijol Diana</h5>
-                                                  <p class="info_detail">Frijol diana x500gr</p>
-                                                  <h6>Precio: <span>$ 3.200</span></h6>
-                                                  <br/>
-                                                  <div class="button cart-button">
-                                                    <button class="btn">Detalle </button>
-                                                </div>
-                                                </div>
-                                              </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="card">
-                                                <img class="card-img-top" src="/arveja.png" alt="Card image cap"/>
-                                                <div class="card-body">
-                                                  <h5 class="card-title">Arveja Diana </h5>
-                                                  <p class="info_detail">Arveja diana x500gr</p>
-                                                  <h6>Precio: <span>$ 3.200</span></h6>
-                                                  <br/>
-                                                  <div class="button cart-button">
-                                                    <button class="btn">Detalle </button>
-                                                </div>
-                                                </div>
-                                              </div>
-                                        </div>
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-            </div>
-        </div>
     </div>
 </section>
   )

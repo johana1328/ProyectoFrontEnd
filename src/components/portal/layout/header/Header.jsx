@@ -12,10 +12,10 @@ const Header = () => {
                         <div class="top-left">
                             <ul class="menu-top-link">
                                 <li>
-                                    <div class="col-lg-3 col-md-3 col-7">
-                                        <a class="navbar-brand" href="index.html">
+                                    <div class="col-lg-4 col-md-4 col-12">
+                                        
                                             <img src="/logo.png" alt="Logo"/>
-                                        </a>
+                                  
                                     </div>
                                 </li>
                             </ul>

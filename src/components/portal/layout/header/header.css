@@ -2,6 +2,7 @@
 .header .topbar {
   background-color: #fff;
   border-bottom: 1px solid #eee;
+
 }
 
 
@@ -99,7 +100,7 @@ img {
 }
 
 ul.user-login{
-  margin: 0px;
+  margin: 4px;
   padding: 0px;
   list-style-type: none;
 }
