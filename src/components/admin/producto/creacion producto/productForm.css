@@ -1,34 +1,24 @@
-/* Estilos del formulario */
+.button .btncancel {
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 13px 30px;
+  background-color: #e0e0e0;
+  color: #8e8e8e;
+  border: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border-radius: 3px;
+  position: relative;
+  z-index: 1;
+  margin-right: 7px;
+  overflow: hidden;
+}
 
-  
-  /* Estilos de los campos de texto */
-
-  
-  /* Estilos de los botones */
-  button {
-    padding: 12px 20px;
-    margin: 2px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #007bff;
-  }
-  
-  /* Alineación del botón cancelar */
-  .cancelar {
-    justify-self: start;
-  }
-  
-  /* Alineación del botón guardar */
-  .guardar {
-    justify-self: end;
-  }
-  form > *:not(.botones) {
-    padding: 5px;
-  }
+.button .btncancel:hover {
+  color: #8e8e8e;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 4px 4px #0000000f;
+  box-shadow: 0px 4px 4px #0000000f;
+}

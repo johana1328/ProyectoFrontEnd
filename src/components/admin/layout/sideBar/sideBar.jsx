@@ -8,23 +8,21 @@ const SiderBar = () => {
   return (
     <div class="wrapper">
     <div class="sidebar">
+    <Link class="active"  to="/admin/inicioPortal/IndexPortal">
         <div class="siderLogo">
+        
         <img src="/logo.png" alt="Logo"/>
+       
     </div>
+    </Link>
     <div id="menuOpcion">
     <ul>
       <li>
-      <Link class="active"  to="/">
+      <Link class="active"  to="/admin/products/list">
           <span class="icon"><i class="fa fa-shopping-basket"></i></span>
           <span class="item">Productos</span>
+      
       </Link>
-        
-      </li>
-      <li>
-        <Link class="active"  to="/">
-              <span class="icon"><i class="fa fa-pencil-square-o"></i></span>
-              <span class="item">My Dashboard</span>
-        </Link>
       </li>
                 
     </ul>

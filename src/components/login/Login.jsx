@@ -29,10 +29,11 @@ const Login = () => {
                  </div>
                  <div class="col-md-12">
                     <label class="form-label">Contraseña</label>
-                    <input type="text" class="form-control" id="password" placeholder='Contraseña' required/>
+                    <input type="password" class="form-control" id="password" placeholder='Contraseña' required/>
                  </div>
+                 <br></br>
                  <div class="button">
-                   <Link class="btn" to="/admin/products/create">Ingresar</Link>
+                   <Link class="btn" to="/admin/inicioPortal/IndexPortal">Ingresar</Link>
                  </div>
               </form>
             </div>

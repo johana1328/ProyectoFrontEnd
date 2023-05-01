@@ -37,7 +37,7 @@ componentDidMount() {
           <div class="col-lg-12 col-12">
           <div class="info-body custom-responsive-margin">
                <h2 class="section-title">Categorias</h2> 
-                <div class="container">
+           
                   <div class="row">
                   {
                      categorias.map(categoria =>{
@@ -46,7 +46,7 @@ componentDidMount() {
                          return(
                           <div class="col-3" >
                             <div class="card">
-                              <img class="card-img-top" src={image} alt="Card image cap"/>
+                              <img class=" img-fluid" src={image} alt="Card image cap"/>
                               <div class="card-body">
                                 <div class="button cart-button">
                                 <Link class="btn" to={url}>{name}</Link>
@@ -61,7 +61,7 @@ componentDidMount() {
                 </div>
             </div>
           </div>
-        </div>
+        
       </section>
     )
   }
