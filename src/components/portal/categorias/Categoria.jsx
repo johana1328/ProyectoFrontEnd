@@ -16,7 +16,7 @@ export class Categoria extends Component {
     this.setState({
         loading: true
     }, () => {
-        fetch("data/categoria.json")
+        fetch("http://localhost:3000/category")
           .then(res => res.json())
           .then(result => this.setState({
             loading: false,
@@ -31,6 +31,11 @@ componentDidMount() {
 
   render() {
     const { categorias, error} = this.state;
+    function toBase64(arr) {
+      return btoa(
+         arr.reduce((data, byte) => data + String.fromCharCode(byte), '')
+      );
+   }
     return (
       <section class="item-details section">
         <div class="single-block">
@@ -42,11 +47,13 @@ componentDidMount() {
                   {
                      categorias.map(categoria =>{
                        const {id, name, image } = categoria;
-                       let url = "/products/"+id;
+                       const data = image.data.data;
+                       const img = toBase64(data);
+                       let url = '/products/ss'
                          return(
                           <div class="col-3" >
                             <div class="card">
-                              <img class=" img-fluid" src={image} alt="Card image cap"/>
+                              <img class=" img-fluid" src={`data:${image.contentType};base64,${img}`} alt="Card image cap"/>
                               <div class="card-body">
                                 <div class="button cart-button">
                                 <Link class="btn" to={url}>{name}</Link>
